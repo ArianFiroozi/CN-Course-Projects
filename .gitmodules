@@ -1,0 +1,6 @@
+[submodule "CN-CA3"]
+	path = CN-CA3
+	url = https://github.com/ArianFiroozi/CN_CHomeworks_3
+[submodule "CN-CA1"]
+	path = CN-CA1
+	url = https://github.com/ArianFiroozi/CN_CA_1.git
