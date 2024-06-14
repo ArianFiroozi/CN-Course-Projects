@@ -1,0 +1,71 @@
+show device
+Ethernet switch Switch1 is always-on
+  Running on server DESKTOP-JG8BREE with port 3080
+  Local ID is 2 and server ID is efe36c2d-9eec-4150-906c-5b26ac77fc43
+  Console is on port 5000 and type is none
+   Port Ethernet0 is in access  mode, with VLAN ID 1,
+    connected to Switch3 on port Ethernet0
+   Port Ethernet1 is in access  mode, with VLAN ID 1,
+    connected to PC1 on port Ethernet0
+   Port Ethernet2 is in access  mode, with VLAN ID 1,
+    connected to PC2 on port Ethernet0
+   Port Ethernet3 is empty
+   Port Ethernet4 is empty
+   Port Ethernet5 is empty
+   Port Ethernet6 is empty
+   Port Ethernet7 is empty
+
+Ethernet switch Switch2 is always-on
+  Running on server DESKTOP-JG8BREE with port 3080
+  Local ID is 3 and server ID is 1e053f9a-bcbd-49a4-8172-da96e928f779
+  Console is on port 5001 and type is none
+   Port Ethernet0 is in access  mode, with VLAN ID 1,
+    connected to Switch3 on port Ethernet1
+   Port Ethernet1 is in access  mode, with VLAN ID 1,
+    connected to PC3 on port Ethernet0
+   Port Ethernet2 is in access  mode, with VLAN ID 1,
+    connected to PC4 on port Ethernet0
+   Port Ethernet3 is empty
+   Port Ethernet4 is empty
+   Port Ethernet5 is empty
+   Port Ethernet6 is empty
+   Port Ethernet7 is empty
+
+Ethernet switch Switch3 is always-on
+  Running on server DESKTOP-JG8BREE with port 3080
+  Local ID is 4 and server ID is 05fdbb09-096c-4cc0-8bc4-a529debdf609
+  Console is on port 5002 and type is none
+   Port Ethernet0 is in access  mode, with VLAN ID 1,
+    connected to Switch1 on port Ethernet0
+   Port Ethernet1 is in access  mode, with VLAN ID 1,
+    connected to Switch2 on port Ethernet0
+   Port Ethernet2 is empty
+   Port Ethernet3 is empty
+   Port Ethernet4 is empty
+   Port Ethernet5 is empty
+   Port Ethernet6 is empty
+   Port Ethernet7 is empty
+
+Node PC1 is started
+  Running on server DESKTOP-JG8BREE with port 3080
+  Local ID is 5 and server ID is 77376902-8635-4b7f-8503-b137721fef56
+  Console is on port 5003 and type is telnet
+     Ethernet0 connected to Switch1 on port Ethernet1
+
+Node PC2 is started
+  Running on server DESKTOP-JG8BREE with port 3080
+  Local ID is 6 and server ID is ee286c6c-4548-4eef-8d85-06264cfd4521
+  Console is on port 5005 and type is telnet
+     Ethernet0 connected to Switch1 on port Ethernet2
+
+Node PC3 is started
+  Running on server DESKTOP-JG8BREE with port 3080
+  Local ID is 7 and server ID is c644e683-f476-42d5-92ae-6ecdc9f55851
+  Console is on port 5007 and type is telnet
+     Ethernet0 connected to Switch2 on port Ethernet1
+
+Node PC4 is started
+  Running on server DESKTOP-JG8BREE with port 3080
+  Local ID is 8 and server ID is 91adc5ee-65cd-4e4b-907a-724fe13dc3b7
+  Console is on port 5009 and type is telnet
+     Ethernet0 connected to Switch2 on port Ethernet2
