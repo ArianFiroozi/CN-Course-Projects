@@ -4,3 +4,6 @@
 [submodule "CN-CA1"]
 	path = CN-CA1
 	url = https://github.com/ArianFiroozi/CN_CA_1.git
+[submodule "CN-CA4"]
+	path = CN-CA4
+	url = https://github.com/ArianFiroozi/CN-CA4.git
